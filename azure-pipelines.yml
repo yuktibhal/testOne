@@ -10,7 +10,7 @@ pool:
   vmImage: 'Ubuntu-16.04'
 
 steps:
-- script: echo Hello, world!
+- script: katalon -noSplash  -runMode=console -projectPath="D:\Users\703234373\git\testOne\testOne.prj" -retry=0 -testSuitePath="Test Suites/New Test Suite" -executionProfile="default" -browserType="Chrome"
   displayName: 'run_katalon_test_suite'
 
 
@@ -18,5 +18,3 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
     displayName: 'run_katalon_test_suite'
-  
-
