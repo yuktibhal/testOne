@@ -17,7 +17,6 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-    - katalon -noSplash  -runMode=console -projectPath="D:\Users\703234373\git\testOne\testOne.prj" -retry=0 -testSuitePath="Test Suites/New Test Suite" -executionProfile="default" -browserType="Chrome"
-  displayName: 'run_katalon_test_suite'
+    displayName: 'run_katalon_test_suite'
   
 
