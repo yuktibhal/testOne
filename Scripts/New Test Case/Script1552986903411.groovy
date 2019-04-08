@@ -17,5 +17,5 @@ WebUI.openBrowser('https://www.google.com/')
 
 WebUI.sendKeys(findTestObject('Page_Google/input_Sign in_q'), 'Yukti')
 
-WebUI.click(findTestObject('Page_Google/input_Remove_btnK'))
+WebUI.click(findTestObject('Page_Google/span_yukti kapoor'))
 

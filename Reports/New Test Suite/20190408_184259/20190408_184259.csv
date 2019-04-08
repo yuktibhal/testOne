@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 73.0.3683.86,,2019-04-08 18:43:04,2019-04-08 18:43:16,11.778s,FAILED
+,,,,,,
+Test Cases/New Test Case,Chrome 73.0.3683.86,,2019-04-08 18:43:05,2019-04-08 18:43:15,10.310s,FAILED
+"openBrowser(""https://www.google.com/"")",Chrome 73.0.3683.86,,2019-04-08 18:43:06,2019-04-08 18:43:14,7.730s,PASSED
+"sendKeys(findTestObject(""Page_Google/input_Sign in_q""), ""Yukti"")",Chrome 73.0.3683.86,,2019-04-08 18:43:14,2019-04-08 18:43:14,0.624s,PASSED
+"click(findTestObject(""Page_Google/input_Remove_btnK""))",Chrome 73.0.3683.86,,2019-04-08 18:43:14,2019-04-08 18:43:15,0.758s,FAILED
