@@ -13,4 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser("https://www.google.com/")
+WebUI.openBrowser('https://www.google.com/')
+
+WebUI.sendKeys(findTestObject('Page_Google/input_Sign in_q'), 'Yukti')
+
+WebUI.click(findTestObject('Page_Google/input_Remove_btnK'))
+

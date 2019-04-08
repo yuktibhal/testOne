@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="11" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="11" timestamp="2019-04-08 18:32:05" hostname="703234373 - BM5X1KRF2" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\703234373\\git\\testOne\\Reports\\New Test Suite\\20190408_183159"/>
+         <property name="logFiles" value="C:\\Users\\703234373\\git\\testOne\\Reports\\New Test Suite\\20190408_183159\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="703234373 - BM5X1KRF2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.168.123.190"/>
+         <property name="sessionId" value="d954061b8d98efebfd1a9feed8299d94"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2019-04-08 18:32:05 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2019-04-08 18:32:06 - [TEST_STEP][PASSED] - openBrowser("https://www.google.com/"): Browser is opened with url: 'https://www.google.com/'
+
+2019-04-08 18:32:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-08 18:32:07 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-08 18:32:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.com/']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-08 18:32:05 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/New Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
